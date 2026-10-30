@@ -66,7 +66,7 @@ body{
    color: rgb(48, 51, 66);
 }
 .web{
-    padding: 70px 0px 40px 90px;
+  padding: 0px 0px 25px 0px;
 }
 .webcontent{
     animation: fadeIn 1s ease;
