@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.navbar{
+    background-color: rgba(225, 215, 193, 0.005);
+    width: 100%;
+}
+.navbar-brand{
+    color: rgb(54, 54, 103);
+}
+.btn-icon{
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+.drawer-body{
+    background-color: rgb(54, 54, 103);
+}
+.drawer-header{
+    background-color: rgb(54, 54, 103);
+}
+.hero{
+    background-color: rgb(54, 54, 103);
+}
+.heroContent{
+    top: 20%;
+    inset-inline-start: 10%;
+    animation: fadeIn 1s ease;
+}
+.heroHead{
+    color: rgb(225, 215, 193);
+    font-size: 250px;
+    font-weight: 800;
+    font-family: "Lato", sans-serif;
+    
+}
+.heroPara{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.heroButton{
+    background-color: rgb(54, 54, 103);
+    margin: 0%;
+    border: solid 2px;
+    border-color: rgb(40, 38, 108);
+    border-radius: 17px;
+    padding: 14px 25px;
+    transition: 0.2s;
+}
+.heroButton:hover{
+   color: rgb(64, 62, 126);
+   background-color: rgb(255, 250, 245);
+   transform: translate();
+}
+
+.about{
+    background-color: rgb(54, 54, 103);
+}
+.title{
+    padding: 70px 0px 0px 150px;
+}
+.Fworks{
+   background-color: rgb(255, 250, 245);
+   color: rgb(48, 51, 66);
+}
+.web{
+    padding: 70px 0px 40px 90px;
+}
+.webcontent{
+    animation: fadeIn 1s ease;
+}
+.workbutton{
+    background-color: rgb(54, 54, 103);
+    margin-top: 15px;
+    border: 1px;
+    border-radius: 15px;
+    padding: 14px 35px;
+    transition: 0.2s;
+}
+.workbutton:hover{
+    color: rgb(64, 62, 126);
+    background-color: rgb(255, 250, 245);
+    border: solid 1px;
+    border-color: rgb(64, 62, 126);
+    transform: translate();
+}
+/* footer */
+.footer{
+    padding: 10px 0px;
+    background-color: rgb(54, 54, 103);
+    border-color: rgb(243, 249, 254);
+}
+.footerButter{
+    background-color: rgb(64, 62, 126);
+    margin: 0%;
+    border: solid 1px;
+    border-color: rgb(40, 38, 108);
+    border-radius: 15px;
+    padding: 14px 35px;
+    transition: 0.2s;
+}
+.footerButter:hover{
+    color: rgb(64, 62, 126);
+    background-color: rgb(255, 250, 245);
+    border-color: rgb(64, 62, 126);
+    transform: translate();
+}
+.footerhead{
+    color: rgb(250, 145, 115);
+}
+hr{
+    border-color: gray;
+}
+/* animation */
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+        transform: translateY(60px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0)
+    }
+}

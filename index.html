@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POTFOLIIO</title>
+    <!-- css -->
+     <link rel="stylesheet" href="./style.css">
+     <!-- font aewsome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+     <!-- bootstrap link -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+      <!-- google fonts -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- navbar -->
+       <nav class="navbar bg-1 fg-2 position-fixed z-2">
+  <div class="container-fluid">
+    <a class="navbar-brand fs-xl fw-bolder" href="#">ROJER</a>
+    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNavMenu" aria-controls="navbarNavMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" aria-hidden="true"></span>
+    </button>
+     <!-- drawer -->
+    <dialog class="drawer drawer-end" tabindex="-1" id="navbarNavMenu" aria-labelledby="navbarNavMenuLabel">
+      <!-- darwer head -->
+      <div class="drawer-header">
+        <h5 class="drawer-title" id="navbarNavMenuLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+      </div>
+      <!-- drewer links -->
+      <div class="drawer-body">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="#">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="#">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </dialog>
+  </div>
+</nav>
+    <!-- hero section -->
+     <section class="hero">
+        <img class="position-relative" width="100%" height="740px" src="./img/hero.jpg" alt="typing">
+         <div class="heroContent position-absolute img-fluid">
+            <h1 class="heroHead">ROJER</h1>
+             <p class="heroPara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, ut amet? <br> Deserunt nostrum possimus perspiciatis facilis maxime! Quas, architecto aut sequi <br> iste omnis hic veniam cupiditate enim odit natus! Laborum.</p>
+             <button class="heroButton">Projects</button>
+         </div>
+     </section>
+     <!-- Featured works -->
+    <section class="Fworks">
+       <h3 class="title fw-bold">FEATURED WORKS</h3>
+      <div class="web d-flex flex-column flex-column-reverse lg:flex-row align-items-center justify-content-around border-bottom">
+        <div><img class="rounded-9 shadow-lg img-fluid mt-9" width="530px" height="355px" src="./img/c1.png" alt="no image"></div>
+        <div class="webcontent">
+          <h2 class="py-3">MOUNTLANE</h2>
+          <p class="py-4">An Online platform for those who intrested in trvelling, treking with local <br> guide and strangers visit the site for more informations</p>
+          <a class="workbutton fg-white text-decoration-none" target="_blank" href="https://jade-piroshki-2d3b33.netlify.app">visit &#8599;</a>
+        </div>
+      </div>
+      <!-- c2 -->
+      <div class="web d-flex flex-column lg:flex-row align-items-center justify-content-around">       
+        <div class="webcontent">
+          <h2 class="py-3">TVD GLOBAL</h2>
+          <p class="py-3">An Online platform for those who intrested in trvelling, treking with local <br> guide and strangers visit the site for more informations</p>
+          <a class="workbutton fg-white text-decoration-none" target="_blank" href="https://luxurycoffeeshop.netlify.app/">visit &#8599;</a>
+        </div>
+        <div><img class="rounded-9 shadow-lg img-fluid mt-9" width="530px" height="355px" src="./img/c2.png" alt="no image"></div>
+      </div>
+      <!-- c3 -->
+      <div class="web d-flex flex-column flex-column-reverse lg:flex-row align-items-center justify-content-around border">
+        <div><img class="rounded-9 shadow-lg img-fluid mt-9" width="530px" height="355px" src="./img/c3.png" alt="no image"></div>
+        <div class="webcontent">
+          <h2 class="py-4">COFFEE SHOP</h2>
+          <p class="py-3">An Online platform for those who intrested in trvelling, treking with local <br> guide and strangers visit the site for more informations</p>
+          <a class="workbutton fg-white text-decoration-none" target="_blank" href="https://luxurycoffeeshop.netlify.app/">visit &#8599;</a>
+        </div>
+      </div>
+      <!-- c4 -->
+       <div class="web d-flex flex-column lg:flex-row align-items-center justify-content-around">       
+        <div class="webcontent">
+          <h2 class="py-4">FURNITURE SHOP</h2>
+          <p class="py-3">An Online platform for those who intrested in trvelling, treking with local <br> guide and strangers visit the site for more informations</p>
+          <a class="workbutton fg-white text-decoration-none" target="_blank" href="https://luxurycoffeeshop.netlify.app/">visit &#8599;</a>
+        </div>
+        <div><img class="rounded-9 shadow-lg img-fluid mt-9" width="530px" height="355px" src="./img/c4.png" alt="no image"></div>
+      </div>
+    </section>
+     <!-- About section -->
+     <section class="about">
+        <h3 class="title">ABOUT</h3>
+        <div class="d-flex flex-column lg:flex-row justify-content-center align-items-center">
+            <div class="py-10">
+                <p>Hi, I'm Rojer Varghese, <br> An aspiring Full Stack Web Developer passionate about building modern, responsive, and  <br>user-friendly websites.I have a degree in Physics from Government College, Kottayam, and I’m <br> currently developing my skills in MEARN Stack Development. I enjoy learning new technologies, <br> solving problems, and turning creative ideas into functional web experiences.I’m currently focusing <br> on HTML, CSS, Bootstrap, JavaScript, and modern web development technologies while building <br>  projects to strengthen my practical skills. I believe in continuous learning, creativity, and writing <br> clean, efficient code.I'm always ready to learn, explore, and build something new.</p>
+            </div>
+            <div><img class="img-fluid" width="500px" src="./img/me2.png" alt="me"></div>
+        </div>
+     </section>
+     <!-- skill -->
+     <!-- footer section -->
+      <footer class="footer">
+        <div class="footer d-flex flex-column lg:flex-row justify-content-around align-items-center">
+          <div>
+            <h1 class="footerhead pb-10">Do You Looking Someone <br>Like Me ?</h1>
+            <a class="footerButter fg-white text-decoration-none" href="">Contact</a>
+          </div>
+          <div class="d-flex flex-column">
+            <a class="pt-10 text-decoration-none fg-white fs-sm fw-bold" href="">HOME</a>
+            <a class="pt-10 text-decoration-none fg-white fs-sm fw-bold" href="">PROJECT</a>
+            <a class="pt-10 text-decoration-none fg-white fs-sm fw-bold" href="">ABOUT</a>
+            <a class="pt-10 text-decoration-none fg-white fs-sm fw-bold" href="">CONTACT</a>
+          </div>
+          <div class="d-flex flex-column">
+            <a class="pt-10 text-decoration-none fg-white fs-sm fw-bold" href=""><i class="fa-brands fa-whatsapp"></i> 9778773019</a>
+            <a class="pt-10 text-decoration-none fg-white fs-sm fw-bold" href=""><i class="fa-brands fa-instagram"></i> rojervarghese_</a>
+            <a class="pt-10 text-decoration-none fg-white fs-sm fw-bold" href=""><i class="fa-brands fa-twitter"></i> rojervarghesept</a>
+          </div>
+        </div><br><hr>
+        <p class="ps-10">&copy; 2026 Rojer. All rights reserved.</p>
+      </footer>
+    
+</body>
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+</html>
