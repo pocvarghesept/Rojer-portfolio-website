@@ -30,7 +30,7 @@ body{
 }
 .heroHead{
     color: rgb(225, 215, 193);
-    font-size: 250px;
+    font-size: clamp(60px, 18vw, 250px);
     font-weight: 800;
     font-family: "Lato", sans-serif;
     
