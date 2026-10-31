@@ -42,12 +42,12 @@ body{
 }
 .heroButton{
     background-color: rgb(54, 54, 103);
-    margin: 0%;
     border: solid 2px;
     border-color: rgb(40, 38, 108);
     border-radius: 17px;
     padding: 14px 25px;
     transition: 0.2s;
+    
 }
 .heroButton:hover{
    color: rgb(64, 62, 126);
